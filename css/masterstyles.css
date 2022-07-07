@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+}
+
+#logo{
+    height:6vh;
+    width: 6vw;
+}
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.nav-links{
+    list-style: none;
+
+}
+.nav-links li{
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links a:hover{
+    color:rgb(197, 77, 77);
+}
+
+button{
+    padding:9px 25px;
+    background-color: rgba(197, 77, 77,1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(197, 77, 77,0.7);
+}
+
+.modal-overlay{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content{
+    background-color: #f4f4f4;
+    margin: 20% auto;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  }
+  
+  .modal-header h2, .modal-footer h3{
+    margin: 0;
+  }
+  
+  .modal-header{
+    padding: 15px;
+    color: #fff;
+  }
+  
+  .modal-body{
+    color:#fff;
+    padding: 10px 20px;
+  }
+  
+  .modal-footer{
+    color:#fff;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .closeBtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+  }
+  
+  .closeBtn:hover,.closeBtn:focus{
+    color: #e439ef;
+    text-decoration: none;
+    cursor:  pointer;
+  }
+  

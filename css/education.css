@@ -1,0 +1,21 @@
+.flex-container{
+    display:flex;
+    margin-left:20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-item-2 >ul{
+    list-style: none;
+    padding-left:30px;   
+}
+.items-flex-cont{
+    display: flex;
+}
+
+
+.items-flex-cont > img{
+    width: 50px;
+    padding-bottom: 10px;
+
+}

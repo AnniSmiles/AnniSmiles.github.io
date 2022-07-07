@@ -1,0 +1,10 @@
+.items-flex-container{
+    display: flex;
+    margin-left:300px;
+    margin-top: 50px;
+}
+
+.items-flex-container > img{
+    width: 50px;
+    padding-bottom: 10px;
+}
